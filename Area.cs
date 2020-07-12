@@ -7,7 +7,7 @@ using System.Windows.Forms;
 using System.Data;
 using System.Drawing;
 
-namespace Snakeame 
+namespace SnakeGame 
 {
     class Area : PictureBox
     {
@@ -23,10 +23,6 @@ namespace Snakeame
             this.BackColor = Color.RosyBrown;
             this.Height = 400 ;
             this.Width = 400;
-        }
-
-       
-
-
+        }      
     }
 }

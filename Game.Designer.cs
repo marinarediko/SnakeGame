@@ -1,4 +1,4 @@
-﻿namespace Snakeame
+﻿namespace SnakeGame
 {
     partial class Game
     {
@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(584, 561);
             this.Name = "Game";
             this.Text = "Snake";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Game_KeyDown);
             this.ResumeLayout(false);
 
         }
